@@ -1,0 +1,17 @@
+{%extends 'base.html' %}
+{%load static%}
+{%block css%}
+    {%static 'css/snacks_list.css'%}
+{%endblock%}
+{%block title%}
+    Snacks List
+{%endblock%}
+
+{%block content%}
+<h1>Welcome to our resturant</h1>
+<h2>Snacks List</h2>
+{%for snack in object_list%}
+<a href="{%url 'snack_details' snack.id%}"><h3>{{snack.title | capfirst}}</h3></a>
+{%endfor%}
+<a href="{%url 'create_snack'%}" id="add_new_snack">Add New Snack</a>
+{%endblock%}

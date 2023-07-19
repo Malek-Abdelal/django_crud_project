@@ -1,0 +1,19 @@
+{%extends 'base.html' %}
+{%load static%}
+{%block css%}
+    {%static 'css/snack_details.css'%}
+{%endblock%}
+{%block title%}
+    Snacks Details
+{%endblock%}
+
+{%block content%}
+<a href="{%url 'snacks'%}"><p>Back to home</p></a>
+<h1>Snack details</h1>
+<h2>Title: {{snack.title}}</h2>
+<h2>Purchaser: {{snack.purchaser}}</h2>
+<h2>Description: {{snack.description}}</h2>
+<a href="{%url 'update_snack' snack.id%}" id="update-button" class="update-delete-snack-button">Update Snack</a>
+<a href="{%url 'delete_snack' snack.id%}" class="update-delete-snack-button">Delete Snack</a>
+
+{%endblock%}

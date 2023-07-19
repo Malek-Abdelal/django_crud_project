@@ -1,0 +1,33 @@
+h1{
+    color:rgb(203, 150, 81);
+    text-align: center;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    margin-left: 5%;
+    font-size: 37px;
+}
+
+h3{
+    margin-left: 7%;
+    color: rgb(203, 150, 81);
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#add_new_snack{
+    margin-left: 20%;
+    background-color: black;
+    border-radius: 4px;
+    padding: 5px;
+    color: white;
+}
+
+#add_new_snack:hover{
+    background-color:rgb(203, 150, 81);
+    color: white;
+}
