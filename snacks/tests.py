@@ -5,8 +5,6 @@ from django.urls import reverse
 
 # Create your tests here.
 
-
-
 class SnackTest(TestCase):
 
     def setUp(self):

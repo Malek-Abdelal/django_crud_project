@@ -1,9 +1,9 @@
-LAB - Class 28
+# LAB - Class 28
 
-Project: Django CRUD and Forms
+## Project: Django CRUD and Forms
 
-Author: Malek Abdelal
+## Author: Malek Abdelal
 
-How to run the application => Write in the terminal 'python manage.py runserver'
+**How to run the application => Write in the terminal 'python manage.py runserver'**
 
-Tests => Write in the terminal 'python manage.py test'
+**Tests => Write in the terminal 'python manage.py test'**
